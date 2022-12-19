@@ -1,3 +1,6 @@
+for run to project you can use this link
+- http://brandcolorshasankuray.surge.sh 
+
 libraries used
 
 for using icons
@@ -16,4 +19,5 @@ for route
 - react-router-dom
 
 for deploying
-- netlify
+- surge
+
