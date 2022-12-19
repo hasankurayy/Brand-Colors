@@ -1,19 +1,22 @@
-libraries used
+# Run The Project
+To run the project click the [link](http://brandcolorshasankuray.surge.sh)
 
-for using icons
-- react-icons
+# Libraries Used
 
-for using modal
-- react-modal
+### for using icons
+### `npm i react-icons`
 
-for using scss
-- sass
+### for using modal
+### `npm i react-modal`
 
-for copy
-- react-clipboard.js
+### for using scss
+### `npm i sass`
 
-for route
-- react-router-dom
+### for copy
+### `npm i react-clipboard.js`
 
-for deploying
-- netlify
+### for route
+### `react-router-dom`
+
+### for deploying
+### `npm i surge`
