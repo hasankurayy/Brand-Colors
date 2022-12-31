@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 
 import Modal from 'react-modal'  // npm i react-modal
 import { GrClose } from "react-icons/gr"  // npm i react-icons
@@ -15,6 +15,9 @@ function Sidebar() {
         <>
             <aside className="sidebar">
                 <div className="logo">
+                    <div className="logo-mine">
+                        <a href="/#">HKRY</a>
+                    </div>
                     <a href='/#'>Brand<b>Colors</b></a>
                 </div>
                 <div className="desc">
@@ -34,7 +37,7 @@ function Sidebar() {
                 onRequestClose={toggleModal}  // modal dışına tıklandığında modal kapanır.
                 className="about-modal"
                 overlayClassName="about-modal-overlay">
-                
+
                 <button className="modal-close-btn" onClick={toggleModal}>
                     <GrClose />
                 </button>
